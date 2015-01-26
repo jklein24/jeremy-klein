@@ -1,6 +1,19 @@
 body {
+  color: rgba(0,0,0,.8);
   font-family: helvetica;
   margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #7C4DFF;
+}
+
+a:visited {
+  color: #311B92;
 }
 
 .parallax-window {
@@ -47,7 +60,7 @@ body {
   display: inline-block;
   margin: 5px;
   opacity: .5;
-  transition: opacity .5s ease-in-out;
+  transition: opacity .25s ease-in-out;
 }
 
 .social-icon:hover {
@@ -83,4 +96,6 @@ body {
 
 .footer {
   height: 600px;
+  margin: auto;
+  max-width: 800px;
 }
