@@ -19,6 +19,12 @@ body {
   justify-content: center;
 }
 
+@media (max-height: 700px) {
+  .header {
+    height: 250px;
+  }
+}
+
 .name {
   font-size: 5em;
 }
@@ -27,7 +33,7 @@ body {
   font-size: 1.5em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
 .name {
   font-size: 3em;
 }
