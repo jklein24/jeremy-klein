@@ -20,11 +20,21 @@ body {
 }
 
 .name {
-  font-size: 500%;
+  font-size: 5em;
 }
 
 .subtitle {
-  font-size: 150%;
+  font-size: 1.5em;
+}
+
+@media (max-width: 700px) {
+.name {
+  font-size: 3em;
+}
+
+.subtitle {
+  font-size: 1.3em;
+}
 }
 
 .social-icon {
